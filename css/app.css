@@ -1,6 +1,6 @@
 body {
       
-    background-image: url('/images/body.png');
+    background-image: url('images/body.png');
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
