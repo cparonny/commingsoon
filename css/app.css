@@ -1,0 +1,84 @@
+body {
+      
+    background-image: url('/images/body.png');
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    height: 100vh;
+}
+
+.countdown {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .container h1 {
+      font-size: 90px;
+      font-weight: bold;
+      margin-bottom: 40px;
+  }
+.countdown span {
+    padding: 0 14px;
+    font-size: 10px;
+}
+.countdown span div {
+    font-size: 40px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  margin: 5px;
+}
+.logo img {
+    
+  width: 50px;
+}
+.logo span {
+  font-weight: 700;
+  left: 20px;
+  top: 20px;
+}
+
+input {
+background-color: rgb(255 255 255 / 0%)!important;
+border: 1px solid rgba(238, 238, 238, 0.27);
+color: #FFFFFF;
+height: 38px;
+padding: 6px 16px;
+border-radius: 5px;
+}
+input::placeholder {
+color:#FFFFFF!important;
+opacity: 1!important; /* Firefox */
+}
+input:focus {
+border: 1px solid rgba(238, 238, 238, 0.27)!important;
+}
+.mgnl {
+margin-left: 10px;
+}
+
+@media only screen and (max-width: 770px) {
+.container h1 {
+font-size: 45px;
+
+}
+.mgnl {
+margin-top: 10px;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 1280px) {
+.container {
+padding-bottom: 15%;
+}
+}
+
