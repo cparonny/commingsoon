@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  console.log('hi);
 const launchDate = new Date('Feb 14, 2022 12:13:20');
 
 let x = setInterval(function() {
