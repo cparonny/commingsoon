@@ -1,2 +1,2 @@
-# commingsoon
-commingsoon Page
+# Comming Soon 
+Simple comming Soon Page
