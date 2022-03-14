@@ -1,5 +1,5 @@
 $(document).ready(function(){
-const launchDate = new Date('Feb 14, 2022 12:13:20');
+const launchDate = new Date('Jan 25, 2023 00:00:00');
 
 let x = setInterval(function() {
   console.log('as');
